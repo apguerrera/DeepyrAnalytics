@@ -16,8 +16,8 @@ SELECT
     , tr.value
     , tr.gas
     , tr.gas_price
-    , tr.input 
-    , bt.timestamp
+    , tr.input
+    , bt.`timestamp`
     , bt.tx_date
 
 FROM transactions_raw tr
