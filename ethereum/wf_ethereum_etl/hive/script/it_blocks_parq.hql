@@ -2,7 +2,7 @@
 USE ethereumetl;
 set hive.exec.dynamic.partition.mode=nonstrict;
 
-INSERT OVERWRITE TABLE blocks_parq
+INSERT INTO TABLE blocks_parq
 PARTITION(tx_date)
 SELECT
 

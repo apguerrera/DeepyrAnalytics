@@ -1,7 +1,7 @@
 
 USE ethereumetl;
 
-CREATE EXTERNAL TABLE IF NOT EXISTS blocks_raw (
+CREATE EXTERNAL TABLE IF NOT EXISTS adrian_test_table (
     number BIGINT,
     hash STRING,
     parent_hash STRING,
